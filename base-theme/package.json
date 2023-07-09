@@ -1,0 +1,16 @@
+{
+  "name": "base-theme",
+  "version": "1.0.0",
+  "description": "Tumblr theme",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "sass": "^1.63.6"
+  },
+  "scripts": {
+    "sass": "sass --watch --update --style=expanded src/scss:src/css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Beatriz Lamano",
+  "license": "ISC"
+}
